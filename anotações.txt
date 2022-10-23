@@ -1,0 +1,6 @@
+Padding: é pra dentro, não altera cor
+Margin: é pra fora
+ TOP3x
+.Trocar a logo e cores do header
+.botão quando o user colocar o mouse em cima usar um "over"
+.hospedar o site (githubPages)

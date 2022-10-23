@@ -1,0 +1,48 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #12171B;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px; /*1º y e 2º X*/
+    
+}
+nav{
+    text-align: right;
+}
+a {
+    display:inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family:"Fira Code", sans-serif; /*fall back*/
+    font-weight: 500; /*bold*/
+    text-decoration: none;
+    margin-right: 30px;
+}
+a::before{ /*Pseudo elemento, deve sempre ter um content "conteúdo"*/
+    content: "";
+    display: inline-block;
+    background-color: #1FB96C;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+span{
+    display: inline-block;
+    background-color: #1FB96C;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#button{
+    display: inline-block;
+    background-color: #1FB96C;
+    box-shadow: 5px 5px 0px #3A4042; /*Bordinha pretinha*/   
+    margin-right: 0px;
+    padding: 18px 20px;
+    /*height: 30px;
+    line-height: 30px;/*Pra centralizar a altura tem que ser a mesma do line height OBS: pra uma linha apenas*/
+    
+}
